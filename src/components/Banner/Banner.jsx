@@ -6,7 +6,7 @@ const Banner = () => {
   const [search, setSearch] = React.useState("");
   const onChange = ({ target }) => setSearch(target.value);
   return (
-    <div className="h-[250px] md:h-[600px] relative flex flex-col justify-center items-center my-6">
+    <div className="h-[250px] md:h-[500px] relative flex flex-col justify-center items-center mt-6">
       <div className="absolute bg-[url('/Images/Rectangle.png')] inset-0 bg-no-repeat bg-cover bg-center opacity-15">
 
       </div>

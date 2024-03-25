@@ -8,47 +8,48 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from '/public/Images/Logo.png'
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <NavLink to={'/'}>
       <Typography
         as="li"
         variant="small"
         color="black"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center text-lg transition-colors">
+        <NavLink to={'/'}>
+        <a className="flex items-center text-lg transition-colors">
           Home
         </a>
+        </NavLink>
       </Typography>
-      </NavLink>
-      <NavLink to={'/donation'}>
       <Typography
         as="li"
         variant="small"
         color="black"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center  text-lg transition-colors">
+        <NavLink to={'/donation'}>
+        <a className="flex items-center  text-lg transition-colors">
           Donation
         </a>
+        </NavLink> 
       </Typography>
-      </NavLink>
-      <NavLink to={'/statistics'}>
      <Typography
         as="li"
         variant="small"
         color="black"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex text-lg items-center transition-colors">
+        <NavLink  to={'/statistics'}>
+        <a className="flex text-lg items-center transition-colors">
           Statistics
         </a>
+        </NavLink>
+        
       </Typography>
-      </NavLink>
     </ul>
   );
 }
@@ -70,9 +71,11 @@ const NavBAr = () => {
     <div>
       <Navbar className="mx-auto max-w-7xl h-12 my-0 shadow-none px-6 pt-4">
       <div className="flex items-center justify-between text-blue-gray-900">
+        <Link to={'/'}>
         <div >
           <img src={logo} alt="" className="w-36"/>
         </div>
+        </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>

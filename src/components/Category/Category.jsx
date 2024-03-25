@@ -13,7 +13,7 @@ const Category = ({card}) => {
   return (
     <div>
       <Link to={`/donation_details/${id}`}>
-      <Card style={{backgroundColor: card_bg}} className="mt-6 overflow-hidden cursor-pointer">
+      <Card style={{backgroundColor: card_bg}} className=" overflow-hidden cursor-pointer">
       <CardHeader color="blue-gray" className="rounded-none shadow-none m-0 h-48">
         <img
           src={picture}
