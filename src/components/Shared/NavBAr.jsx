@@ -8,10 +8,12 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from '/public/Images/Logo.png'
+import { NavLink } from "react-router-dom";
 
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+      <NavLink to={'/'}>
       <Typography
         as="li"
         variant="small"
@@ -22,6 +24,8 @@ function NavList() {
           Home
         </a>
       </Typography>
+      </NavLink>
+      <NavLink to={'/donation'}>
       <Typography
         as="li"
         variant="small"
@@ -32,7 +36,9 @@ function NavList() {
           Donation
         </a>
       </Typography>
-      <Typography
+      </NavLink>
+      <NavLink to={'/statistics'}>
+     <Typography
         as="li"
         variant="small"
         color="black"
@@ -42,6 +48,7 @@ function NavList() {
           Statistics
         </a>
       </Typography>
+      </NavLink>
     </ul>
   );
 }
@@ -86,7 +93,6 @@ const NavBAr = () => {
         <NavList />
       </Collapse>
     </Navbar>
-  );
       
     </div>
   );

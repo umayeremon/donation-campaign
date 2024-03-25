@@ -1,7 +1,8 @@
 [
     {
+      "id":1,
       "picture": "https://i.ibb.co/zm4yvYz/Education.jpg",
-      "title": "Support Education for Underprivileged Children",
+      "title": "Support Education for Children",
       "category": "education",
       "category_bg": "#FF5733",
       "card_bg": "#F9EBEA",
@@ -10,6 +11,7 @@
       "price": "$290"
     },
     {
+      "id":2,
       "picture": "https://i.ibb.co/SXMZ5j4/food.jpg",
       "title": "Feed Families in Need",
       "category": "food",
@@ -20,8 +22,9 @@
       "price": "$290"
     },
     {
+      "id":3,
       "picture": "https://i.ibb.co/ZhRVsn2/health.jpg",
-      "title": "Support Healthcare for Vulnerable Communities",
+      "title": "Support Healthcare for children",
       "category": "health",
       "category_bg": "#2980B9",
       "card_bg": "#D6EAF8",
@@ -30,8 +33,9 @@
       "price": "$290"
     },
     {
+      "id":4,
       "picture": "https://i.ibb.co/GRgLGPr/clothing.jpg",
-      "title": "Provide Warm Clothing for Winter",
+      "title": "Warm Clothing for Winter",
       "category": "clothing",
       "category_bg": "#F39C12",
       "card_bg": "#FCF3CF",
@@ -39,39 +43,11 @@
       "description": "Your generosity will help us distribute warm clothing items such as jackets, sweaters, and blankets to those who cannot afford them. Together, we can ensure that everyone stays warm and protected during the cold winter months.",
       "price": "$290"
     },
+  
     {
-      "picture": "https://i.ibb.co/zm4yvYz/Education.jpg",
-      "title": "Sponsor Scholarships for Higher Education",
-      "category": "education",
-      "category_bg": "#FF5733",
-      "card_bg": "#F9EBEA",
-      "text_button_bg": "#C0392B",
-      "description": "Your donation will fund scholarships for talented but financially disadvantaged students, enabling them to pursue higher education and fulfill their academic aspirations. Your support can transform lives and empower the next generation.",
-      "price": "$290"
-    },
-    {
-      "picture": "https://i.ibb.co/SXMZ5j4/food.jpg",
-      "title": "Support Community Food Banks",
-      "category": "food",
-      "category_bg": "#27AE60",
-      "card_bg": "#D5F5E3",
-      "text_button_bg": "#196F3D",
-      "description": "Your contribution will help sustain local food banks, ensuring they have an adequate supply of food to distribute to those in need. Your generosity can provide a lifeline to individuals and families facing hunger.",
-      "price": "$290"
-    },
-    {
-      "picture": "https://i.ibb.co/ZhRVsn2/health.jpg",
-      "title": "Provide Mental Health Counseling Services",
-      "category": "health",
-      "category_bg": "#2980B9",
-      "card_bg": "#D6EAF8",
-      "text_button_bg": "#154360",
-      "description": "Your donation will support mental health counseling services for individuals struggling with various mental health issues. Your kindness can offer hope and healing to those in emotional distress.",
-      "price": "$290"
-    },
-    {
+      "id":5,
       "picture": "https://i.ibb.co/GRgLGPr/clothing.jpg",
-      "title": "Distribute School Uniforms to Children",
+      "title": "Distribute School Uniforms",
       "category": "clothing",
       "category_bg": "#F39C12",
       "card_bg": "#FCF3CF",
@@ -80,8 +56,42 @@
       "price": "$290"
     },
     {
+      "id":6,
+      "picture": "https://i.ibb.co/ZhRVsn2/health.jpg",
+      "title": "Mental Health Counseling ",
+      "category": "health",
+      "category_bg": "#2980B9",
+      "card_bg": "#D6EAF8",
+      "text_button_bg": "#154360",
+      "description": "Your donation will support mental health counseling services for individuals struggling with various mental health issues. Your kindness can offer hope and healing to those in emotional distress.",
+      "price": "$290"
+    },
+    {
+      "id":7,
+      "picture": "https://i.ibb.co/SXMZ5j4/food.jpg",
+      "title": "Community Food Banks",
+      "category": "food",
+      "category_bg": "#27AE60",
+      "card_bg": "#D5F5E3",
+      "text_button_bg": "#196F3D",
+      "description": "Your contribution will help sustain local food banks, ensuring they have an adequate supply of food to distribute to those in need. Your generosity can provide a lifeline to individuals and families facing hunger.",
+      "price": "$290"
+    },
+    {
+      "id":8,
       "picture": "https://i.ibb.co/zm4yvYz/Education.jpg",
-      "title": "Build Libraries in Underserved Communities",
+      "title": "Support for Higher Education",
+      "category": "education",
+      "category_bg": "#FF5733",
+      "card_bg": "#F9EBEA",
+      "text_button_bg": "#C0392B",
+      "description": "Your donation will fund scholarships for talented but financially disadvantaged students, enabling them to pursue higher education and fulfill their academic aspirations. Your support can transform lives and empower the next generation.",
+      "price": "$290"
+    },
+    {
+      "id":9,
+      "picture": "https://i.ibb.co/zm4yvYz/Education.jpg",
+      "title": "Build Libraries ",
       "category": "education",
       "category_bg": "#FF5733",
       "card_bg": "#F9EBEA",
@@ -90,8 +100,9 @@
       "price": "$290"
     },
     {
+      "id":10,
       "picture": "https://i.ibb.co/SXMZ5j4/food.jpg",
-      "title": "Support Sustainable Agriculture Projects",
+      "title": "Support Sustainable Agriculture ",
       "category": "food",
       "category_bg": "#27AE60",
       "card_bg": "#D5F5E3",
@@ -99,25 +110,27 @@
       "description": "Your contribution will fund sustainable agriculture projects aimed at improving food security and promoting environmentally friendly farming practices. Your investment in sustainable agriculture can help feed communities for generations to come.",
       "price": "$290"
     },
+    
     {
-      "picture": "https://i.ibb.co/ZhRVsn2/health.jpg",
-      "title": "Provide Accessible Healthcare for the Elderly",
-      "category": "health",
-      "category_bg": "#2980B9",
-      "card_bg": "#D6EAF8",
-      "text_button_bg": "#154360",
-      "description": "Your donation will support initiatives to make healthcare services more accessible to elderly individuals, ensuring they receive the medical care and attention they deserve. Your compassion can enhance the quality of life for senior citizens.",
-      "price": "$290"
-    },
-    {
+      "id":11,
       "picture": "https://i.ibb.co/GRgLGPr/clothing.jpg",
-      "title": "Empower Women with Vocational Training",
+      "title": "Used Clothing Drive",
       "category": "clothing",
       "category_bg": "#F39C12",
       "card_bg": "#FCF3CF",
       "text_button_bg": "#B9770E",
       "description": "Your support will empower women by providing vocational training programs that equip them with valuable skills for employment and self-sufficiency. Your investment in women's empowerment can break the cycle of poverty and create lasting change.",
       "price": "$290"
+    },
+    {
+      "id":12,
+      "picture": "https://i.ibb.co/ZhRVsn2/health.jpg",
+      "title": "Provide Accessible Healthcare",
+      "category": "health",
+      "category_bg": "#2980B9",
+      "card_bg": "#D6EAF8",
+      "text_button_bg": "#154360",
+      "description": "Your donation will support initiatives to make healthcare services more accessible to elderly individuals, ensuring they receive the medical care and attention they deserve. Your compassion can enhance the quality of life for senior citizens.",
+      "price": "$290"
     }
   ]
-
